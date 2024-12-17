@@ -1,5 +1,5 @@
-{
-    "name": "fattureincloud/eloquence-mappable",
+l{
+    "name": "codecontrol-be/eloquence-mappable",
     "description": "Flexible Searchable, Mappable, Metable, Validation and more extensions for Laravel Eloquent ORM.",
     "license": "MIT",
     "keywords": [
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "fattureincloud/eloquence-base": ">=8.0"
+        "codecontrol-be/eloquence-base": ">=8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
