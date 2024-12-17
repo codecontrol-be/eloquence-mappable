@@ -89,6 +89,10 @@ trait Mappable
         $columns = $args->get('columns');
 
         foreach ($columns as $key => $column) {
+            if(!is_string($column)){
+                continue;
+            }
+            
             list($column, $as) = $this->extractColumnAlias($column);
 
             // Each mapped column will be selected appropriately. If it's alias
